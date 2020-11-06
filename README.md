@@ -1,10 +1,11 @@
 # CherryBot - A Payload Delivery Robot
 
-A proposal for an autonomous robot system for use as a swag delivery in the conferences as well as food delivery in university campuses that is capable of terrestrial as well as aerial locomotion.Our goal is to build the so-called “CherryBot Systems” which is a swag delivery robot equipped with production-ready System on Module(SOM) NVIDIA Jetson Nano board which is just 70 x 45mm , a low-powered AI deployed as Edge device, a sensor suite that includes multiple cameras, GPS and  swappable batteries. It is an autonomous delivery robot which picks up and delivers swags  and food items within a conference, campus or a roughly 5-6 square kilometers area centered around university premises. The goal is to allow the robot to traverse a given conference and campus area delimited by coordinates on a GPS receiver, detect and avoid obstacles in its path, thereby distributing swags and food items using Deep Learning algorithm. 
+A proposal for an autonomous robot system for use as a swag delivery in the conferences as well as food delivery in university campuses that is capable of terrestrial as well as aerial locomotion. The main goal of this project is to build the so-called “CherryBot Systems” which is a swag delivery robot equipped with production-ready System on Module(SOM) NVIDIA Jetson Nano board which is just 70 x 45mm , a low-powered AI deployed as Edge device, a sensor suite that includes multiple cameras, GPS and  swappable batteries. It is an autonomous delivery robot which picks up and delivers swags  and food items within a conference, campus or a roughly 5-6 square kilometers area centered around university premises. The goal is to allow the robot to traverse a given conference and campus area delimited by coordinates on a GPS receiver, detect and avoid obstacles in its path, thereby distributing swags and food items using Deep Learning algorithm. 
 
-The project involves both hardware and software development. In the hardware part we will 
-leverage robotic components, both in terms of aerial as well as terrestrial locomotion. 
-The software part will involve developing an encrypted QR code generator which runs inside the Docker container and  detects the QR code sign to deliver the package.
+
+The project involves both hardware and software development. 
+- In the hardware part we will leverage robotic components, both in terms of aerial as well as terrestrial locomotion. 
+- The software part will involve developing an encrypted QR code generator which runs inside the Docker container and  detects the QR code sign to deliver the package.
 
 Testing will be done continuously and in stages. We will first develop and test the hardware components and the communications. The second stage will be to integrate a navigation algorithm with obstacle avoidance to enable the robot to move autonomously. The final stage will be to incorporate a mapping software running inside Docker containers on top of NVIDIA Jetson Nano that will distribute the swags based on QR code.
 
