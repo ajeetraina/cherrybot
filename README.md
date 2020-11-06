@@ -1,5 +1,7 @@
 # CherryBot - A Payload Delivery Robot
 
+![My Image](https://github.com/ajeetraina/cherrybot/blob/main/images/Screenshot%202020-11-06%20at%207.46.13%20PM.png)
+
 A proposal for an autonomous robot system for use as a swag delivery in the conferences as well as food delivery in university campuses that is capable of terrestrial as well as aerial locomotion. The main goal of this project is to build the so-called “CherryBot Systems” which is a swag delivery robot equipped with production-ready System on Module(SOM) NVIDIA Jetson Nano board which is just 70 x 45mm , a low-powered AI deployed as Edge device, a sensor suite that includes multiple cameras, GPS and  swappable batteries. It is an autonomous delivery robot which picks up and delivers swags  and food items within a conference, campus or a roughly 5-6 square kilometers area centered around university premises. The goal is to allow the robot to traverse a given conference and campus area delimited by coordinates on a GPS receiver, detect and avoid obstacles in its path, thereby distributing swags and food items using Deep Learning algorithm. 
 
 
